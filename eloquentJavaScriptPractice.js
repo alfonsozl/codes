@@ -232,6 +232,7 @@ john.avgJohnTip > avgTipMark() ? console.log("John's tip is greater!") : console
                 HOISTING
 ////////////////////////////////////////*/
 
+/*
 let obj2 = {
     name : 'John',
     lastName : 'Doe',
@@ -239,3 +240,11 @@ let obj2 = {
 }
 
 console.log(obj2);
+*/
+
+const add = (a, b) => {
+    let result = 'El resultado de la suma es: ' + (a + b);
+    return result;
+}
+
+console.log(add(2, 3));
